@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Facebook Login</title>
+
+    <style>
+        fieldset{
+            background-color: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 2px 2px 15px rgb(0,0,0);
+            padding: 25px;
+            width: 380px;
+            margin-left: 750px;
+            margin-top: 150px;
+            font-style:italic;
+        }
+
+        legend{
+            text-align: center;
+            font-size: 28px;
+            color: rgb(24, 119, 242);
+            font-weight: bold;
+        }
+
+        input{
+            height: 35px;
+            width: 320px;
+            margin-left: 20px;
+            margin-bottom: 12px;
+            border-radius: 6px;
+            border: 1px solid rgb(204, 204, 204);
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        button{
+            height: 40px;
+            width: 320px;
+            margin-left: 20px;
+            border: none;
+            border-radius: 6px;
+            background-color: rgb(24, 119, 242);
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: rgb(22, 111, 229);
+        }
+
+        .forgot{
+            margin-left: 110px;
+            font-size: 14px;
+            color: rgb(24, 119, 242);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .create{
+            background-color: rgb(66, 183, 42);
+            margin-top: 15px;
+        }
+
+        .create:hover{
+            background-color: rgb(54, 164, 32);
+        }
+
+        body{
+            background-color: rgb(240, 242, 245);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .lefttext{
+            position: absolute;
+            left: 200px;
+            top: 220px;
+            width: 450px;
+        }
+
+        .lefttext h1{
+            color: rgb(24, 119, 242);
+            font-size: 60px;
+        }
+
+        .lefttext p{
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="lefttext">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+
+    <form>
+        <fieldset>
+           
+
+            <input type="text" placeholder="Email address or phone number" required><br>
+
+            <input type="password" placeholder="Password" required><br>
+
+            <button>Log in</button><br><br>
+
+            <a class="forgot" href="#">Forgotten password?</a><br><br>
+
+            <hr>
+
+            <button class="create">Create new account</button>
+        </fieldset>
+    </form>
+
+</body>
+</html>
